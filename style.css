@@ -1,0 +1,409 @@
+* {
+   padding: 0;
+   margin: 0;
+}
+
+nav {
+   background: #ffffff;
+}
+
+.navbar-brand {
+   padding-left: 140px;
+   font-size: 30px;
+   font-weight: 700;
+}
+
+.navbar-nav {
+   margin-right: 300px;
+
+}
+
+.nav-item a {
+   position: relative;
+}
+
+header ul li a::before {
+   content: "";
+   position: absolute;
+   width: 0;
+   height: 12px;
+   bottom: 10px;
+   left: 10px;
+   top: 30 px;
+   border-bottom: 2px solid red;
+   transition: 0.4s linear all;
+}
+
+header button {
+   margin-right: 100px;
+}
+
+header span {
+   color: red;
+}
+
+header ul li a:hover:before {
+   width: 75%;
+}
+
+
+
+/*---------------- section --------------------*/
+.section1 {
+   background: #EEEEEE;
+}
+
+.enjoy h1 {
+   font-family: "Amatic SC", sans-serif;
+   margin: 0px 0px 20px;
+   font-size: 64px;
+   font-weight: 700;
+   color: #37373F;
+}
+
+.enjoy p {
+   color: #4F4F5A;
+}
+
+.section2 i {
+   font-size: 30px;
+   vertical-align: -0.150em;
+   color: red;
+
+}
+
+
+
+.section2 a {
+   text-decoration: none;
+}
+
+section span {
+   color: red;
+}
+
+
+.section-header h2 {
+   font-size: 13px;
+   letter-spacing: 1px;
+   font-weight: 400;
+   margin: 0;
+   padding: 0;
+   color: #7f7f90;
+   text-align: center;
+}
+
+.section-header p {
+   font-size: 48px;
+   font-weight: 400;
+   text-align: center;
+   font-family: "Amatic SC", sans-serif;
+}
+
+/*---------------- about ---------------------*/
+
+
+
+
+
+
+.learn-more {
+   color: #212529;
+   text-align: left;
+}
+
+.learn-more img {
+   margin-left: 40px;
+   height: 60vh;
+}
+
+.info {
+   left: 25%;
+   bottom: 30%;
+   right: 10%;
+   background-color: #fff;
+   padding: 5px;
+   text-align: center;
+}
+
+.about ul li {
+   list-style: none;
+}
+
+.bg-1 {
+   background-image: url(img/about.jpg);
+   background-repeat: no-repeat;
+}
+
+
+
+
+.info h4 {
+   font-size: 24px;
+   font-weight: 700;
+   margin-bottom: 5px;
+}
+
+.info p {
+   font-size: 28px;
+   font-weight: 700;
+   color: red;
+}
+
+
+.why-us {
+   background: #eee;
+   padding-top: 80px;
+   padding-bottom: 80px;
+}
+
+.why {
+   background: #CE1212;
+   color: #fff;
+   padding: 30PX;
+}
+
+.why h1 {
+   font-weight: 700;
+   font-size: 45px;
+   margin-bottom: 30px;
+}
+
+.why a {
+   display: inline-block;
+   background: rgba(255, 255, 255, 0.3);
+   padding: 6px 30px 8px 30px;
+   color: #fff;
+   border-radius: 50px;
+   transition: all ease-in-out 0.4s;
+
+}
+
+.learn {
+   text-align: center;
+}
+
+.tab2 {
+   background: #fff;
+   text-align: center;
+   padding: 40px 30px;
+}
+
+.tab2 i {
+   color: red;
+   margin-bottom: 30px;
+   font-size: 32px;
+   margin-bottom: 30px;
+   background: rgba(206, 18, 18, 0.1);
+   border-radius: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 64px;
+   height: 64px;
+   margin-left: 70px;
+
+}
+
+
+.stats {
+   width: 100%;
+   height: 45vh;
+   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/stats-bg.jpg);
+   background-size: cover;
+   background-attachment: fixed;
+   color: #fff;
+}
+
+
+.stats h4 {
+   font-size: 48px;
+   font-weight: 700;
+   padding-top: 130px;
+}
+
+.stats p {
+   font-size: 16px;
+   font-weight: 700;
+   color: rgba(255, 255, 255, 0.6);
+
+}
+
+/* -------------menu---------------- */
+
+.section-header2 {
+   text-align: center;
+   padding-top: 30px;
+
+}
+
+.section-header2 h2 {
+   font-size: 13px;
+   letter-spacing: 1px;
+   font-weight: 400;
+   margin: 0;
+   padding: 0;
+   color: #7f7f90;
+   text-transform: uppercase;
+}
+
+.section-header2 p {
+   font-size: 48px;
+   font-weight: 40px;
+   font-family: "Amatic SC", sans-serif;
+}
+
+.starter ul {
+   justify-content: center;
+}
+
+.tab-header p {
+   font-size: 14px;
+   text-transform: uppercase;
+   color: #676775;
+}
+
+.tab-header h3 {
+   font-size: 36px;
+   font-weight: 600;
+   color: #ce1212;
+}
+
+
+/* testimonial section */
+
+
+.testimonial {
+   background: #EEEEEE;
+}
+
+.testimonial-header h2 {
+   font-size: 13px;
+   letter-spacing: 1px;
+   font-weight: 400;
+   color: #7f7f90;
+}
+
+.testimonial-header p {
+   font-size: 48px;
+   font-weight: 400;
+   font-family: "Amatic SC", sans-serif;
+}
+
+
+/* event section */
+
+
+.event-header h1 {
+   font-family: "Amatic SC", sans-serif;
+}
+
+/* chefs */
+
+
+.chefs-header {
+   font-family: "Architects Daughter", cursive;
+}
+
+
+
+
+.pera:hover {
+   transition: 0.5s;
+}
+
+.icon {
+   position: absolute;
+   right: -20px;
+   flex-direction: column;
+   display: flex;
+   padding-right: 30px;
+   padding-left: 10px;
+   top: 14px;
+   opacity: 0;
+   background-color: rgba(255, 255, 255, 0.3);
+   transition: 0.5s;
+   border-radius: 10px;
+
+}
+
+.wave {
+   margin-top: -80px;
+}
+
+.pera:hover .icon {
+   opacity: 1;
+
+}
+
+.pera {
+   transition: all 0.3;
+   overflow: hidden;
+   margin-top: 80px;
+}
+
+.pera:hover {
+   transform: scale(1.15);
+}
+
+.owl-item>div {
+   cursor: pointer;
+   margin: 6% 8%;
+   transition: margin 0.4s ease;
+}
+
+.owl-item.center>div {
+   cursor: auto;
+   margin: 0;
+}
+
+.owl-item:not(.center)>div:hover {
+   opacity: .75;
+}
+
+.owl-item.center.active {
+   border: 8px solid red;
+}
+
+/*-------------------- book a table ----------------------*/
+
+.book-header h2 {
+   font-size: 15px;
+   letter-spacing: 1px;
+   font-weight: 400;
+   margin: 0;
+   padding: 0;
+
+}
+
+.book-header h1 {
+   font-family: "Amatic SC", sans-serif;
+}
+
+
+.icon1 {
+   border: 1px solid #ce1212;
+   width: 70px;
+   height: 70px;
+   border-radius: 50%;
+   background: #ce1212;
+}
+
+
+.icon1 {
+   border: 1px solid #ce1212;
+   width: 70px;
+   height: 70px;
+   border-radius: 50%;
+   background: #ce1212;
+}
+
+.icon1 i {
+   position: relative;
+   top: -14px;
+   left: 15px;
+}
+
+.info-box {
+   padding: 30px;
+}
